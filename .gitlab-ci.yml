@@ -1,0 +1,7 @@
+include:
+- component: gitlab.com/components/code-quality/code-quality@main
+- component: gitlab.com/components/sast/sast@main
+- component: gitlab.com/components/secret-detection/secret-detection@main
+- component: gitlab.com/to-be-continuous/maven/gitlab-ci-maven@3.11.4
+  inputs:
+    image: registry.hub.docker.com/library/maven:3-eclipse-temurin-17
