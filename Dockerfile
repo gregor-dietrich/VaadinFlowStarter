@@ -1,4 +1,4 @@
-FROM tomcat:10-jdk17-temurin
+FROM tomcat:10-jre17-temurin
 
 WORKDIR /usr/local/tomcat/webapps
 
